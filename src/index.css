@@ -130,7 +130,7 @@ input:focus {
 
 .cardContainer {
     display: flex;
-    width: 654px;
+    width: 554px;
     height: fit-content;
     padding: 16px;
     gap: 16px;
@@ -138,7 +138,7 @@ input:focus {
     box-shadow: 0 5px 25px 5px rgba(0, 0, 0, 0.225);
     border-radius: 12px;
     flex-direction: column;
-    position: relative; /* Important pour que le bouton se positionne à l’intérieur */
+    position: relative;
 }
 
 .cardImage img {
@@ -149,25 +149,30 @@ input:focus {
 }
 
 .cardNameBio {
+    position: absolute;
+    left: 180px;
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    max-width: 324px;
+    gap: 16px;
 }
 
 .cardIng ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
     list-style-type: none;
 }
 
 .cardIng li {
     display: flex;
-    text-wrap: wrap;
-    width: fit-content;
-
+    align-items: center;
+    width: auto;
     background-color: rgb(172, 172, 172);
     padding: 2px 15px;
     border-radius: 6px;
+    white-space: nowrap;
 }
 
 .cardContainer button {

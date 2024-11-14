@@ -38,23 +38,25 @@ export default function SearchBar({ setShowInput }) {
                         <img src="/assets/SVG/closeSVG.svg" alt="close btn" />
                     </button>
                 </div>
-            </div>
 
-            {inputValue && (
-                <ul className="resultList">
-                    {filterPizza.length > 0 ? (
-                        filterPizza.map((item, index) => (
-                            <li className="container" key={item.id}>
-                                <h3>{item.name}</h3>
-                                <p>{item.description}</p>
-                                {index < filterPizza.length - 1 && <hr />}
+                {inputValue && (
+                    <ul className="resultList">
+                        {filterPizza.length > 0 ? (
+                            filterPizza.map((item, index) => (
+                                <li className="container" key={item.id}>
+                                    <h3>{item.name}</h3>
+                                    <p>{item.description}</p>
+                                    {index < filterPizza.length - 1 && <hr />}
+                                </li>
+                            ))
+                        ) : (
+                            <li className="container">
+                                <p>Aucun résultat trouvé</p>
                             </li>
-                        ))
-                    ) : (
-                        <li>Aucun résultat trouvé</li>
-                    )}
-                </ul>
-            )}
+                        )}
+                    </ul>
+                )}
+            </div>
         </>
     );
 }

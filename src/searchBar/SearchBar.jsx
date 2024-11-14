@@ -6,7 +6,9 @@ export default function SearchBar({ setShowInput }) {
     const [inputValue, setInputValue] = useState("");
 
     const filterPizza = inputValue
-        ? Pizza.filter((item) => item.id.startsWith(inputValue))
+        ? Pizza.filter((item) =>
+              item.id.startsWith(inputValue.toLocaleLowerCase())
+          )
         : [];
 
     const handleButtonClick = () => {
@@ -43,11 +45,13 @@ export default function SearchBar({ setShowInput }) {
                     <ul className="resultList">
                         {filterPizza.length > 0 ? (
                             filterPizza.map((item, index) => (
-                                <li className="container" key={item.id}>
-                                    <h3>{item.name}</h3>
-                                    <p>{item.description}</p>
+                                <>
+                                    <li className="container">
+                                        <h3>{item.name}</h3>
+                                        <p>{item.description}</p>
+                                    </li>
                                     {index < filterPizza.length - 1 && <hr />}
-                                </li>
+                                </>
                             ))
                         ) : (
                             <li className="container">

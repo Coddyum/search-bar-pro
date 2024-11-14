@@ -100,6 +100,7 @@ input:focus {
     border-radius: 12px;
     list-style-type: none;
     box-shadow: 0 5px 25px 5px rgba(0, 0, 0, 0.225);
+    cursor: pointer;
 }
 
 .container {
@@ -107,10 +108,16 @@ input:focus {
     font-size: 1rem;
     font-weight: 200;
     font-style: normal;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.container:hover {
+    background-color: #e2e2e2;
 }
 
 .resultList h3 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 300;
     font-style: normal;
 }
@@ -118,5 +125,5 @@ input:focus {
 .resultList hr {
     border: none;
     border-top: 1px solid #ccc;
-    margin: 12px;
+    margin: 5px;
 }

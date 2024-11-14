@@ -4,6 +4,7 @@ import Pizza from "../data/pizza.json";
 
 export default function SearchBar({ setShowInput }) {
     const [inputValue, setInputValue] = useState("");
+    const [selectedPizza, setSelectedPizza] = useState(null);
 
     const filterPizza = inputValue
         ? Pizza.filter((item) =>
@@ -13,6 +14,10 @@ export default function SearchBar({ setShowInput }) {
 
     const handleButtonClick = () => {
         setShowInput(false);
+    };
+
+    const handleItemClick = (item) => {
+        setSelectedPizza(item);
     };
 
     const inputRef = useRef(null);
@@ -46,7 +51,10 @@ export default function SearchBar({ setShowInput }) {
                         {filterPizza.length > 0 ? (
                             filterPizza.map((item, index) => (
                                 <>
-                                    <li className="container">
+                                    <li
+                                        className="container"
+                                        onChange={() => handleItemClick(item)}
+                                        key={item.id}>
                                         <h3>{item.name}</h3>
                                         <p>{item.description}</p>
                                     </li>

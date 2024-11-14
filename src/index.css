@@ -169,7 +169,7 @@ input:focus {
     display: flex;
     align-items: center;
     width: auto;
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(207, 219, 232);
     padding: 2px 15px;
     border-radius: 6px;
     white-space: nowrap;

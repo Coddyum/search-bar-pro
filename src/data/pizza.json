@@ -5,7 +5,7 @@
         "description": "Une pizza classique avec de la sauce tomate et du fromage.",
         "ingredients": ["Sauce tomate", "Mozzarella", "Basilic", "Origan"],
         "quantity": 10,
-        "image": "../../public/assets/img/margarita.jpg"
+        "image": ""
     },
     {
         "id": "marinara",

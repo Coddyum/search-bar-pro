@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import useKeyCombo from "../Hooks/useKeyCombo";
 import Pizza from "../data/pizza.json";
+import ResultCard from "../resultCard/ResultCard";
 
 export default function SearchBar({ setShowInput }) {
     const [inputValue, setInputValue] = useState("");
@@ -53,7 +54,7 @@ export default function SearchBar({ setShowInput }) {
                                 <>
                                     <li
                                         className="container"
-                                        onChange={() => handleItemClick(item)}
+                                        onClick={() => handleItemClick(item)}
                                         key={item.id}>
                                         <h3>{item.name}</h3>
                                         <p>{item.description}</p>
@@ -68,6 +69,10 @@ export default function SearchBar({ setShowInput }) {
                         )}
                     </ul>
                 )}
+                <ResultCard
+                    pizza={selectedPizza}
+                    onClose={() => setSelectedPizza(null)}
+                />
             </div>
         </>
     );

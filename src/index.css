@@ -113,7 +113,7 @@ input:focus {
 }
 
 .container:hover {
-    background-color: #e2e2e2;
+    background-color: rgb(207, 219, 232);
 }
 
 .resultList h3 {

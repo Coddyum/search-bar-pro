@@ -1,10 +1,25 @@
-export default function ResultCard({ pizza, onClose }) {
-    if (!pizza) return null;
+export default function ResultCard({ item, onClose }) {
+    if (!item) return null;
+
     return (
-        <div className="card">
-            <h3>{pizza.name}</h3>
-            <p>{pizza.description}</p>
-            <button onClick={onClose}>X</button>
+        <div className="cardContainer">
+            <div className="cardImage">
+                <img src={item.image} alt={item.name} />
+            </div>
+            <div className="cardNameBio">
+                <h3>{item.name}</h3>
+                <p>{item.description}</p>
+            </div>
+            <div className="cardIng">
+                <ul className="cardlist">
+                    {item.ingredients.map((ingredient, i) => (
+                        <li key={i}>{ingredient}</li>
+                    ))}
+                </ul>
+            </div>
+            <button onClick={onClose}>
+                <img src="/assets/SVG/closeSVG.svg" alt="close btn" />
+            </button>
         </div>
     );
 }

@@ -5,42 +5,47 @@
         "description": "Une pizza classique avec de la sauce tomate et du fromage.",
         "ingredients": ["Sauce tomate", "Mozzarella", "Basilic", "Origan"],
         "quantity": 10,
-        "image": ""
+        "image": "/assets/img/margarita.jpg"
     },
     {
         "id": "marinara",
         "name": "Marinara",
         "description": "Une pizza simple avec sauce tomate, ail et origan.",
         "ingredients": ["Sauce tomate", "Ail", "Origan"],
-        "quantity": 6
+        "quantity": 6,
+        "image": "/assets/img/marinara.jpg"
     },
     {
         "id": "mexicaine",
         "name": "Mexicaine",
         "description": "Pizza épicée avec des saveurs mexicaines.",
         "ingredients": ["Sauce tomate", "Bœuf épicé", "Maïs", "Poivrons"],
-        "quantity": 4
+        "quantity": 4,
+        "image": "/assets/img/mexicaine.jpg"
     },
     {
         "id": "mozzarella",
         "name": "Mozzarella",
         "description": "Pizza avec mozzarella fraîche et basilic.",
         "ingredients": ["Sauce tomate", "Mozzarella", "Basilic"],
-        "quantity": 5
+        "quantity": 5,
+        "image": "/assets/img/mozzarella.jpg"
     },
     {
         "id": "pepperoni",
         "name": "Pepperoni",
         "description": "Pizza savoureuse avec des tranches de pepperoni épicées.",
         "ingredients": ["Sauce tomate", "Mozzarella", "Pepperoni"],
-        "quantity": 8
+        "quantity": 8,
+        "image": "/assets/img/pepperoni.jpg"
     },
     {
         "id": "prosciutto",
         "name": "Prosciutto",
         "description": "Une pizza garnie de jambon de parme et roquette.",
         "ingredients": ["Sauce tomate", "Mozzarella", "Prosciutto", "Roquette"],
-        "quantity": 3
+        "quantity": 3,
+        "image": "/assets/img/prosciutto.jpg"
     },
     {
         "id": "quatre_fromages",
@@ -53,7 +58,8 @@
             "Parmesan",
             "Gorgonzola"
         ],
-        "quantity": 5
+        "quantity": 5,
+        "image": "/assets/img/quatre-fromages.jpg"
     },
     {
         "id": "quatre_saisons",
@@ -67,7 +73,8 @@
             "Artichauts",
             "Olives"
         ],
-        "quantity": 6
+        "quantity": 6,
+        "image": "/assets/img/quatre-saisons.jpg"
     },
     {
         "id": "quebecoise",
@@ -80,7 +87,8 @@
             "Bacon",
             "Oignons"
         ],
-        "quantity": 4
+        "quantity": 4,
+        "image": "/assets/img/quebecoise.jpg"
     },
     {
         "id": "raclette",
@@ -92,14 +100,16 @@
             "Pommes de terre",
             "Oignons"
         ],
-        "quantity": 3
+        "quantity": 3,
+        "image": "/assets/img/raclette.jpg"
     },
     {
         "id": "reine",
         "name": "Reine",
         "description": "Une pizza classique avec jambon et champignons.",
         "ingredients": ["Sauce tomate", "Mozzarella", "Jambon", "Champignons"],
-        "quantity": 7
+        "quantity": 7,
+        "image": "/assets/img/reine.jpg"
     },
     {
         "id": "roma",
@@ -111,21 +121,24 @@
             "Roquette",
             "Tomates cerises"
         ],
-        "quantity": 5
+        "quantity": 5,
+        "image": "/assets/img/roma.jpg"
     },
     {
         "id": "saucisse",
         "name": "Saucisse",
         "description": "Pizza garnie de saucisse italienne et poivrons.",
         "ingredients": ["Sauce tomate", "Mozzarella", "Saucisse", "Poivrons"],
-        "quantity": 6
+        "quantity": 6,
+        "image": "/assets/img/saucisse.jpg"
     },
     {
         "id": "saumon",
         "name": "Saumon",
         "description": "Pizza au saumon fumé et crème fraîche.",
         "ingredients": ["Crème fraîche", "Mozzarella", "Saumon fumé", "Aneth"],
-        "quantity": 3
+        "quantity": 3,
+        "image": "/assets/img/saumon.jpg"
     },
     {
         "id": "sicilienne",
@@ -138,7 +151,8 @@
             "Câpres",
             "Olives"
         ],
-        "quantity": 2
+        "quantity": 2,
+        "image": "/assets/img/sicilienne.jpg"
     },
     {
         "id": "diavola",
@@ -150,7 +164,8 @@
             "Salami piquant",
             "Piments"
         ],
-        "quantity": 7
+        "quantity": 7,
+        "image": "/assets/img/diavola.jpg"
     },
     {
         "id": "caprese",
@@ -162,21 +177,24 @@
             "Tomates",
             "Basilic"
         ],
-        "quantity": 4
+        "quantity": 4,
+        "image": "/assets/img/caprese.jpg"
     },
     {
         "id": "carbonara",
         "name": "Carbonara",
         "description": "Inspirée des pâtes carbonara avec crème et pancetta.",
         "ingredients": ["Crème fraîche", "Mozzarella", "Pancetta", "Parmesan"],
-        "quantity": 3
+        "quantity": 3,
+        "image": "/assets/img/carbonara.jpg"
     },
     {
         "id": "poulet_bbq",
         "name": "Poulet BBQ",
         "description": "Pizza avec sauce BBQ, poulet et oignons rouges.",
         "ingredients": ["Sauce BBQ", "Mozzarella", "Poulet", "Oignons rouges"],
-        "quantity": 5
+        "quantity": 5,
+        "image": "/assets/img/poulet-bbq.jpg"
     },
     {
         "id": "veggie_delight",
@@ -190,14 +208,16 @@
             "Oignons",
             "Olives"
         ],
-        "quantity": 6
+        "quantity": 6,
+        "image": "/assets/img/veggie-delight.jpg"
     },
     {
         "id": "hawaienne",
         "name": "Hawaïenne",
         "description": "Une pizza sucrée-salée avec jambon et ananas.",
         "ingredients": ["Sauce tomate", "Mozzarella", "Jambon", "Ananas"],
-        "quantity": 8
+        "quantity": 8,
+        "image": "/assets/img/hawaienne.jpg"
     },
     {
         "id": "truffe",
@@ -208,7 +228,8 @@
             "Mozzarella",
             "Champignons sauvages"
         ],
-        "quantity": 2
+        "quantity": 2,
+        "image": "/assets/img/tartufo.jpg"
     },
     {
         "id": "pomodoro",
@@ -220,21 +241,24 @@
             "Tomates cerises",
             "Ail rôti"
         ],
-        "quantity": 7
+        "quantity": 7,
+        "image": "/assets/img/pomodoro.jpg"
     },
     {
         "id": "fromage_ail",
         "name": "Fromage et Ail",
         "description": "Pizza avec une base de fromage et une touche d'ail.",
         "ingredients": ["Mozzarella", "Parmesan", "Ail"],
-        "quantity": 5
+        "quantity": 5,
+        "image": "/assets/img/fromage-ail.jpg"
     },
     {
         "id": "creme_herbes",
         "name": "Crème et Herbes",
         "description": "Pizza délicate avec une sauce crémeuse et des herbes fraîches.",
         "ingredients": ["Crème fraîche", "Mozzarella", "Basilic", "Persil"],
-        "quantity": 6
+        "quantity": 6,
+        "image": "/assets/img/creme-herbes.jpg"
     },
     {
         "id": "patate_bacon",
@@ -246,35 +270,40 @@
             "Pommes de terre",
             "Bacon"
         ],
-        "quantity": 4
+        "quantity": 4,
+        "image": "/assets/img/patate-becon.jpg"
     },
     {
         "id": "calzone",
         "name": "Calzone",
         "description": "Pizza fermée remplie de sauce tomate, mozzarella et jambon.",
         "ingredients": ["Sauce tomate", "Mozzarella", "Jambon"],
-        "quantity": 5
+        "quantity": 5,
+        "image": "/assets/img/calzon.jpg"
     },
     {
         "id": "florentine",
         "name": "Florentine",
         "description": "Pizza aux épinards et œuf au plat.",
         "ingredients": ["Sauce tomate", "Mozzarella", "Épinards", "Œuf"],
-        "quantity": 4
+        "quantity": 4,
+        "image": "/assets/img/florentine.jpg"
     },
     {
         "id": "tartufo",
         "name": "Tartufo",
         "description": "Pizza gourmande avec crème à la truffe et champignons.",
         "ingredients": ["Crème de truffe", "Mozzarella", "Champignons"],
-        "quantity": 3
+        "quantity": 3,
+        "image": "/assets/img/tartufo.jpg"
     },
     {
         "id": "pollo_pesto",
         "name": "Pollo Pesto",
         "description": "Pizza au pesto avec morceaux de poulet grillé.",
         "ingredients": ["Pesto", "Mozzarella", "Poulet"],
-        "quantity": 6
+        "quantity": 6,
+        "image": "/assets/img/pollo-pesto.jpg"
     },
     {
         "id": "mediterraneenne",
@@ -287,14 +316,16 @@
             "Poivrons",
             "Aubergines"
         ],
-        "quantity": 4
+        "quantity": 4,
+        "image": "/assets/img/mediterraneenne.jpg"
     },
     {
         "id": "camembert",
         "name": "Camembert",
         "description": "Pizza gourmande avec camembert et pommes.",
         "ingredients": ["Crème fraîche", "Mozzarella", "Camembert", "Pommes"],
-        "quantity": 3
+        "quantity": 3,
+        "image": "/assets/img/camembert.jpg"
     },
     {
         "id": "oceanique",
@@ -306,21 +337,24 @@
             "Fruits de mer",
             "Citron"
         ],
-        "quantity": 4
+        "quantity": 4,
+        "image": "/assets/img/oceanique.jpg"
     },
     {
         "id": "fondue",
         "name": "Fondue",
         "description": "Pizza inspirée de la fondue avec fromage et lardons.",
         "ingredients": ["Crème fraîche", "Fromage fondant", "Lardons"],
-        "quantity": 3
+        "quantity": 3,
+        "image": "/assets/img/fondue.jpg"
     },
     {
         "id": "beef_bbq",
         "name": "Beef BBQ",
         "description": "Pizza au bœuf mariné avec sauce barbecue.",
         "ingredients": ["Sauce BBQ", "Mozzarella", "Bœuf mariné", "Oignons"],
-        "quantity": 5
+        "quantity": 5,
+        "image": "/assets/img/beef-bbq.jpg"
     },
     {
         "id": "poulet_curry",
@@ -333,7 +367,8 @@
             "Poivrons",
             "Oignons"
         ],
-        "quantity": 6
+        "quantity": 6,
+        "image": "/assets/img/poulet-curry.jpg"
     },
     {
         "id": "artichaut",
@@ -345,7 +380,8 @@
             "Artichauts",
             "Tomates séchées"
         ],
-        "quantity": 4
+        "quantity": 4,
+        "image": "/assets/img/artichaut.jpg"
     },
     {
         "id": "veggie_pesto",
@@ -358,14 +394,16 @@
             "Aubergines",
             "Poivrons"
         ],
-        "quantity": 5
+        "quantity": 5,
+        "image": "/assets/img/veggie-pesto.jpg"
     },
     {
         "id": "chevre_miel",
         "name": "Chèvre Miel",
         "description": "Pizza sucrée-salée avec fromage de chèvre et miel.",
         "ingredients": ["Crème fraîche", "Mozzarella", "Chèvre", "Miel"],
-        "quantity": 4
+        "quantity": 4,
+        "image": "/assets/img/chevre-miel.jpg"
     },
     {
         "id": "bresaola",
@@ -378,7 +416,8 @@
             "Roquette",
             "Parmesan"
         ],
-        "quantity": 3
+        "quantity": 3,
+        "image": "/assets/img/bresaola.jpg"
     },
     {
         "id": "legumes_grilles",
@@ -391,49 +430,56 @@
             "Poivrons",
             "Aubergines"
         ],
-        "quantity": 6
+        "quantity": 6,
+        "image": "/assets/img/legumes-grilles.jpg"
     },
     {
         "id": "creme_saumon",
         "name": "Crème Saumon",
         "description": "Pizza avec crème, saumon fumé et aneth.",
         "ingredients": ["Crème fraîche", "Mozzarella", "Saumon fumé", "Aneth"],
-        "quantity": 4
+        "quantity": 4,
+        "image": "/assets/img/creme-saumon.jpg"
     },
     {
         "id": "boeuf_truffe",
         "name": "Bœuf Truffe",
         "description": "Pizza au bœuf et sauce truffe.",
         "ingredients": ["Sauce truffe", "Mozzarella", "Bœuf", "Roquette"],
-        "quantity": 3
+        "quantity": 3,
+        "image": "/assets/img/boeuf-truffe.jpg"
     },
     {
         "id": "creme_epinards",
         "name": "Crème Épinards",
         "description": "Pizza avec une base de crème et épinards frais.",
         "ingredients": ["Crème fraîche", "Mozzarella", "Épinards", "Parmesan"],
-        "quantity": 5
+        "quantity": 5,
+        "image": "/assets/img/creme-epinards.jpg"
     },
     {
         "id": "jambon_cantal",
         "name": "Jambon Cantal",
         "description": "Pizza avec jambon de pays et cantal.",
         "ingredients": ["Sauce tomate", "Mozzarella", "Jambon", "Cantal"],
-        "quantity": 6
+        "quantity": 6,
+        "image": "/assets/img/jambon-cantal.jpg"
     },
     {
         "id": "miel_noix",
         "name": "Miel Noix",
         "description": "Pizza sucrée-salée avec noix et miel.",
         "ingredients": ["Mozzarella", "Chèvre", "Miel", "Noix"],
-        "quantity": 4
+        "quantity": 4,
+        "image": "/assets/img/miel-noix.jpg"
     },
     {
         "id": "gorgonzola_figues",
         "name": "Gorgonzola et Figues",
         "description": "Pizza au gorgonzola et figues fraîches.",
         "ingredients": ["Sauce tomate", "Gorgonzola", "Mozzarella", "Figues"],
-        "quantity": 3
+        "quantity": 3,
+        "image": "/assets/img/gorgonzola-figues.jpg"
     },
     {
         "id": "roquette_tomate",
@@ -445,27 +491,31 @@
             "Roquette",
             "Tomates cerises"
         ],
-        "quantity": 5
+        "quantity": 5,
+        "image": "/assets/img/roquette-tomate.jpg"
     },
     {
         "id": "patate_truffe",
         "name": "Patate Truffe",
         "description": "Pizza gourmande avec pommes de terre et truffe.",
         "ingredients": ["Crème de truffe", "Mozzarella", "Pommes de terre"],
-        "quantity": 3
+        "quantity": 3,
+        "image": "/assets/img/patate-truffe.jpg"
     },
     {
         "id": "poivrons_olives",
         "name": "Poivrons et Olives",
         "description": "Pizza végétarienne avec poivrons et olives.",
         "ingredients": ["Sauce tomate", "Mozzarella", "Poivrons", "Olives"],
-        "quantity": 6
+        "quantity": 6,
+        "image": "/assets/img/poivrons-olives.jpg"
     },
     {
         "id": "pesto_pistache",
         "name": "Pesto Pistache",
         "description": "Pizza originale avec pesto de pistache et ricotta.",
         "ingredients": ["Pesto de pistache", "Mozzarella", "Ricotta"],
-        "quantity": 3
+        "quantity": 3,
+        "image": "/assets/img/pesto-pistache.jpg"
     }
 ]

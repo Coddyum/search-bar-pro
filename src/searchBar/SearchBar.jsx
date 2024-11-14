@@ -8,9 +8,7 @@ export default function SearchBar({ setShowInput }) {
     const [selectedPizza, setSelectedPizza] = useState(null);
 
     const filterPizza = inputValue
-        ? Pizza.filter((item) =>
-              item.id.startsWith(inputValue.toLocaleLowerCase())
-          )
+        ? Pizza.filter((item) => item.id.startsWith(inputValue.toLowerCase()))
         : [];
 
     const handleButtonClick = () => {
@@ -19,6 +17,13 @@ export default function SearchBar({ setShowInput }) {
 
     const handleItemClick = (item) => {
         setSelectedPizza(item);
+        setInputValue(item.name);
+    };
+
+    const handleInputChange = (e) => {
+        const newValue = e.target.value;
+        setInputValue(newValue);
+        setSelectedPizza(null);
     };
 
     const inputRef = useRef(null);
@@ -40,37 +45,39 @@ export default function SearchBar({ setShowInput }) {
                         type="text"
                         ref={inputRef}
                         placeholder="Search Pizza..."
-                        onChange={(i) => setInputValue(i.target.value)}
+                        value={inputValue}
+                        onChange={handleInputChange}
                     />
                     <button onClick={handleButtonClick}>
                         <img src="/assets/SVG/closeSVG.svg" alt="close btn" />
                     </button>
                 </div>
 
-                {inputValue && (
+                {inputValue && !selectedPizza && (
                     <ul className="resultList">
-                        {filterPizza.length > 0 ? (
-                            filterPizza.map((item, index) => (
-                                <>
-                                    <li
-                                        className="container"
-                                        onClick={() => handleItemClick(item)}
-                                        key={item.id}>
-                                        <h3>{item.name}</h3>
-                                        <p>{item.description}</p>
-                                    </li>
-                                    {index < filterPizza.length - 1 && <hr />}
-                                </>
-                            ))
-                        ) : (
-                            <li className="container">
-                                <p>Aucun résultat trouvé</p>
-                            </li>
-                        )}
+                        {filterPizza.length > 0
+                            ? filterPizza.map((item, index) => (
+                                  <>
+                                      <li
+                                          className="container"
+                                          onClick={() => handleItemClick(item)}
+                                          key={item.id}>
+                                          <h3>{item.name}</h3>
+                                          <p>{item.description}</p>
+                                      </li>
+                                      {index < filterPizza.length - 1 && <hr />}
+                                  </>
+                              ))
+                            : !selectedPizza && (
+                                  <li className="container">
+                                      <p>Aucun résultat trouvé</p>
+                                  </li>
+                              )}
                     </ul>
                 )}
+
                 <ResultCard
-                    pizza={selectedPizza}
+                    item={selectedPizza}
                     onClose={() => setSelectedPizza(null)}
                 />
             </div>

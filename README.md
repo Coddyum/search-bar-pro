@@ -10,7 +10,7 @@ L'objectif est d'explorer des concepts de base comme la gestion de l'état, les 
 
 1. Clonez ce dépôt :
    ```bash
-   git clone https://github.com/username/repository-name.git
+   git clone https://github.com/Coddyum/search-bar-pro.git
 
 2. Accédez au dossier du projet :
   ```bash
